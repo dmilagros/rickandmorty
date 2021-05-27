@@ -1,5 +1,37 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div-card a {
+  text-decoration: none;
+}
+
+.div-card {
+  padding: 10px;
+}
+
+.div-buttons {
+  display: flex;
+  width: 96%;
+  justify-content: space-between;
+  padding: 50px 50px;
+}
+
+.btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.link {
+  text-decoration: none;
 }
 
 .App-logo {
