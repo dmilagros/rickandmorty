@@ -1,0 +1,24 @@
+@import "../index.css";
+
+.primaryButton {
+  background-color: #ffde77; /* #FFDE77 */
+  border: none;
+  padding: 5px 30px;
+  cursor: pointer;
+  border-radius: 3px;
+  display: flex;
+  text-decoration: none;
+  color: var(--grayDark);
+}
+
+.primaryButton:hover {
+  background-color: #eab921; /* #FFDE77 */
+  border: none;
+  padding: 5px 30px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.primaryButton:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,11 @@
+@import "../index.css";
+
+.chip {
+  display: flex;
+  justify-content: center;
+  background-color: var(--secondary);
+  border-radius: 35px;
+
+  color: var(--grayDark);
+  width: 50px;
+}
